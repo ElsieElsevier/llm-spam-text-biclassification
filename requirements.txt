@@ -1,0 +1,11 @@
+# Tested on Linux (WSL) with Python 3.12. tensorflow-text has no Windows build.
+joblib==1.6.0
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1
+setuptools<81  # tensorflow-hub 0.16.1 imports pkg_resources
+tensorflow==2.21.0
+tensorflow-hub==0.16.1
+tensorflow-text==2.21.1
+tf-keras==2.21.0
